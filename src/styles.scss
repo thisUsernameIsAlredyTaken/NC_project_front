@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+$background-main: #2b2b2b;
+$text-color: #90B3C4;
+
+html {
+  background: $background-main;
+  color: $text-color;
+  font-size: 2rem;
+}
