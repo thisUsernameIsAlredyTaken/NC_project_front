@@ -6,9 +6,13 @@
 <!-- * * * * * * * * * Delete the template below * * * * * * * * * -->
 <!-- * * * * * * * to get started with your project! * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
-<p>app component</p>
-<app-movie></app-movie>
+<div class="top-nav">
+  <a href="#" (click)="activeTab = 'home'" [ngClass]="{active: activeTab === 'home'}">Home</a>
+  <a href="#" (click)="activeTab = 'movie'" [ngClass]="{active: activeTab === 'movie'}">Movie</a>
+  <a href="#" (click)="activeTab = 'account'" [ngClass]="{active: activeTab === 'account'}">My account</a>
+  <a href="#" (click)="activeTab = 'about'" [ngClass]="{active: activeTab === 'about'}">About</a>
+  <a href="#" (click)="activeTab = 'login'" [ngClass]="{active: activeTab === 'login'}">Login</a>
+</div>
 
 <!--<style>-->
 <!--  :host {-->
